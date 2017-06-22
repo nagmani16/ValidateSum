@@ -20,7 +20,7 @@ public class GetSumTest extends TestCase {
 		
 		ArithmaticCalculation dif= new ArithmaticCalculation();
 		
-		assertEquals (dif.getDiff(3, 2),5) ;
+		assertEquals (dif.getDiff(3, 2),1) ;
 		
 	}
 	
