@@ -1,18 +1,19 @@
-package JavaValidateSum1.validateSum1;
+package JavaValidateSum1.validateSum1.test;
 
 import org.junit.Test;
 
+import JavaValidateSum.ArithmaticCalculation;
 import junit.framework.Assert;
-import junit.framework.TestCase;
-
-public class GetSumTest extends TestCase {
+public class GetSumTest{
 	
 	@Test
 	public void test1(){
 		
+		
 		ArithmaticCalculation sum= new ArithmaticCalculation();
 		int sumValue = sum.getSum(2, 3);
-		Assert.assertEquals (sumValue,5) ;
+		Assert.assertEquals (5,sumValue) ;
+	
 		
 	}
 	
@@ -20,8 +21,9 @@ public class GetSumTest extends TestCase {
 	public void test2(){
 		
 		ArithmaticCalculation dif= new ArithmaticCalculation();
-		
-		Assert.assertEquals (dif.getDiff(3, 2),1) ;
+		int difValue= dif.getDiff(3, 2);
+	
+		Assert.assertEquals (1,difValue) ;
 		
 	}
 	
