@@ -10,9 +10,9 @@ public class GetSumTest extends TestCase {
 	@Test
 	public void test1(){
 		
-		ArithmaticCalculation Sum= new ArithmaticCalculation();
-		
-		Assert.assertEquals (Sum.getSum(2, 3),5) ;
+		ArithmaticCalculation sum= new ArithmaticCalculation();
+		int sumValue = sum.getSum(2, 3);
+		Assert.assertEquals (sumValue,5) ;
 		
 	}
 	
