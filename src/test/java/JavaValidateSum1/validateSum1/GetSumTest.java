@@ -2,6 +2,7 @@ package JavaValidateSum1.validateSum1;
 
 import org.junit.Test;
 
+import junit.framework.Assert;
 import junit.framework.TestCase;
 
 public class GetSumTest extends TestCase {
@@ -11,7 +12,7 @@ public class GetSumTest extends TestCase {
 		
 		ArithmaticCalculation Sum= new ArithmaticCalculation();
 		
-		assertEquals (Sum.getSum(2, 3),5) ;
+		Assert.assertEquals (Sum.getSum(2, 3),5) ;
 		
 	}
 	
@@ -20,7 +21,7 @@ public class GetSumTest extends TestCase {
 		
 		ArithmaticCalculation dif= new ArithmaticCalculation();
 		
-		assertEquals (dif.getDiff(3, 2),1) ;
+		Assert.assertEquals (dif.getDiff(3, 2),1) ;
 		
 	}
 	
