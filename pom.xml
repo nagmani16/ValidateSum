@@ -27,7 +27,7 @@
   
   
   <build>
-  	<pluginManagement>
+  
   	<plugins>
   		<plugin>
   			<groupId>org.jacoco</groupId>
@@ -70,6 +70,6 @@
   		</plugin>
   		
   	</plugins>
-  	</pluginManagement>
+  	
   </build>
 </project>
