@@ -31,7 +31,7 @@ public class GetSumTest{
 	public void test3(){
 		
 		ArithmaticCalculation dif= new ArithmaticCalculation();
-		int prodValue= dif.getDiff(3, 2);
+		int prodValue= dif.getProduct(3, 2);
 	
 		Assert.assertEquals (6,prodValue) ;
 		
