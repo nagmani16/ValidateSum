@@ -27,6 +27,16 @@ public class GetSumTest{
 		
 	}
 	
+	@Test
+	public void test3(){
+		
+		ArithmaticCalculation dif= new ArithmaticCalculation();
+		int prodValue= dif.getDiff(3, 2);
+	
+		Assert.assertEquals (6,prodValue) ;
+		
+	}
+	
 	
 
 }
