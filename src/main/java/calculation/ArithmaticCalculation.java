@@ -1,4 +1,4 @@
-package JavaValidateSum;
+package calculation;
 
 public class ArithmaticCalculation {
 	

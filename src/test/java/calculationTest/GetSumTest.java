@@ -1,8 +1,8 @@
-package JavaValidateSum1.validateSum1.test;
+package calculationTest;
 
 import org.junit.Test;
 
-import JavaValidateSum.ArithmaticCalculation;
+import calculation.ArithmaticCalculation;
 import junit.framework.Assert;
 public class GetSumTest{
 	
