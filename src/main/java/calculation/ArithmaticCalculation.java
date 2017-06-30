@@ -19,6 +19,8 @@ public class ArithmaticCalculation {
 		return a*b;
 	}
 	
-	
+	public int getDivision(int a, int b) {
+		return a/b;
+	}
 
 }
